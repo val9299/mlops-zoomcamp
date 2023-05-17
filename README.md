@@ -1,18 +1,14 @@
 # MLOPs Zoomcamp 2023
 By Valerie G., 2023
 
-## Participation on MLOps Zoomcamp 2023 hosted by DataTalksClub
-https://github.com/DataTalksClub/mlops-zoomcamp/
-- 2023 specific: https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2023
+## Participation on MLOps Zoomcamp 2023
+- An MLOps course hosted by [DataTalks.Club](https://datatalks.club/)
+- GitHub repo: https://github.com/DataTalksClub/mlops-zoomcamp/
+    - 2023 specific instructions: https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/cohorts/2023
 
 ___________
 
 ## Pre-requirements to run the code
-### Pre-requirements having installed on the PC
-- Docker
-- Docker-compose
-- Conda
-
 ### Conda environment to run the code
 ```
 conda create -n mlops python
