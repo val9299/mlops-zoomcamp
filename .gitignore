@@ -1,3 +1,11 @@
+# Outputs
+02-homework/output/
+
+# MLFlow
+mlruns/
+mlflow.db
+mlartifacts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
