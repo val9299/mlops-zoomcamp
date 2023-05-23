@@ -126,7 +126,7 @@ Tips for MLflow:
 What is the test RMSE of the best model?
 
 * 1.885
-* 2.185
+* **2.185** <-- (my result: 2.285)
 * 2.555
 * 2.955
 
@@ -135,10 +135,10 @@ What is the test RMSE of the best model?
 
 Now explore your best model in the model registry using UI. What information does the model registry contain about each model?
 
-* Version number
-* Source experiment
-* Model signature
-* All the above answers are correct
+* **Version number**
+* **Source experiment**
+* **Model signature**
+* All the above answers are correct <--
 
 
 ## Submit the results

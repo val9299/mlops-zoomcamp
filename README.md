@@ -34,4 +34,4 @@ ___________
     - ```green_tripdata_2022-01.parquet``` - used as the training set
     - ```green_tripdata_2022-02.parquet``` - used as the validation set
     - ```green_tripdata_2022-03.parquet``` - used as the test set
-    - data source: https://www1.nyc.gov/site/tlc/about/
+    - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page

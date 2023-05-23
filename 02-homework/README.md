@@ -25,7 +25,7 @@
         ```
         mlflow ui --backend-store-uri sqlite:///mlflow.db
         ```
-    - read presented max_depth (parameter) in UI (Q3)
+    - Experiment "02-homework-Q3" -> click on the one run -> Parameters -> max_depth (Q3)
 
 - run
     ```
@@ -35,5 +35,16 @@
         ```
         mlflow ui --backend-store-uri sqlite:///mlflow.db
         ```
-    - read best RMSE on validation set (metrics) in UI (Q4)
+    - Experiment "random-forest-hyperopt" -> read best RMSE (on validation set) (Q4)
+
+- run
+    ```
+    python ./register_model.py
+    ```
+    - Q5 answer will be printed to system output
+    - run (if not still running)
+        ```
+        mlflow ui --backend-store-uri sqlite:///mlflow.db
+        ```
+    - investigate "Models" tab (Q6)
 
