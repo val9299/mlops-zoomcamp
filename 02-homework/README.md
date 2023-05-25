@@ -3,7 +3,7 @@
     ```
     conda activate mlops
     ```
-    - this is the mlops conda environment which was created before (see *Pre-requirements* in ```README.md``` in the repo's root folder)
+    - this is the mlops conda environment which was created before (see *Pre-requirements* in ```/mlops-zoomcamp/README.md```, i.e., the README in the repo's root folder)
 - Go into 02-homework folder (if not already)
     ```
     cd 02-homework
