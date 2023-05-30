@@ -1,12 +1,35 @@
-# How to run the code
-- Activate mlops conda environment (if not already)
-    ```
-    conda activate mlops
-    ```
-    - this is the mlops conda environment which was created before (see *Pre-requirements* in ```/mlops-zoomcamp/README.md```, i.e., the README in the repo's root folder)
+# Folders and files
+- ```02-homework_instructions.md``` - instructions by DTC + answered questions
+- ```README.md``` - instructions on how to run the code
+- ```requirements.txt``` - requirements file to create the code environment
+- ```*.py``` - code verifying the answers
+    - these scripts originate from DTC but they were modified by me in order to complete the homework
+- ```data/``` - data to run the code
+    - ```green_tripdata_2022-01.parquet``` - used as the training set
+    - ```green_tripdata_2022-02.parquet``` - used as the validation set
+    - ```green_tripdata_2022-03.parquet``` - used as the test set
+    - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+# Pre-requirements to run the code
 - Go into 02-homework folder (if not already)
     ```
     cd 02-homework
+    ```
+- Create conda environment
+    ```
+    conda create -n hw2 python==3.11.3
+    conda activate hw2
+    pip install -r requirements.txt
+    ```
+
+# How to run the code
+- Go into 02-homework folder (if not already)
+    ```
+    cd 02-homework
+    ```
+- Activate conda environment (if not already)
+    ```
+    conda activate hw2
     ```
 - Check MLFlow version (Q1)
     ```
@@ -47,4 +70,3 @@
         mlflow ui --backend-store-uri sqlite:///mlflow.db
         ```
     - investigate "Models" tab (Q6)
-
