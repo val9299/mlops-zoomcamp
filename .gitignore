@@ -1,10 +1,15 @@
 # Outputs
-02-homework/output/
+output/
 
 # MLFlow
 mlruns/
 mlflow.db
 mlartifacts/
+
+# W&B
+wandb/
+artifacts/
+regressor.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
