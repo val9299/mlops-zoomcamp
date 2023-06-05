@@ -65,13 +65,6 @@
         --data_artifact "<USERNAME>/mlops-zoomcamp-wandb/NYC-Taxi:v0"
     ```
     - change ```<USERNAME>``` to run the command!
-    - for me it is:
-        ```bash
-        python sweep.py \
-            --wandb_project mlops-zoomcamp-wandb \
-            --wandb_entity val929 \
-            --data_artifact "val929/mlops-zoomcamp-wandb/NYC-Taxi:v0"
-        ```
     - Click on Sweeps -> on your run -> analyze hyperparameters importance (Q4)
 
 - Create model registry and link the best model to this registry (follow the steps of Manual Linking of [this section](https://docs.wandb.ai/guides/models/walkthrough#1-create-a-new-registered-model)) (Q5)
