@@ -1,4 +1,4 @@
-# Experiment Tracking & Model Registry with MLflow (02-homework)
+# Experiment Tracking & Model Registry with MLflow (homework 2)
 ## Folders and files
 - ```02-homework_instructions.md``` - instructions by DTC + answered questions
 - ```README.md``` - instructions on how to run the code
@@ -12,9 +12,9 @@
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## Pre-requirements to run the code
-- Go into 02-homework folder (if not already)
+- Go into homework 2 folder (if not already)
     ```
-    cd 02-homework
+    cd 02-experiment-tracking_mlflow
     ```
 - Create conda environment
     ```
@@ -24,9 +24,9 @@
     ```
 
 ## How to run the code
-- Go into 02-homework folder (if not already)
+- Go into homework 2 folder (if not already)
     ```
-    cd 02-homework
+    cd 02-experiment-tracking_mlflow
     ```
 - Activate conda environment (if not already)
     ```

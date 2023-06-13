@@ -1,4 +1,4 @@
-# Experiment Tracking with Weights & Biases (02-homework-wandb)
+# Experiment Tracking with Weights & Biases (homework 2 wandb)
 ## Folders and files
 - ```02-wandb_instructions.md``` - instructions by DTC + answered questions
 - ```README.md``` - instructions on how to run the code
@@ -12,7 +12,7 @@
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## Pre-requirements to run the code
-- Go into 02-homework-wandb folder (if not already)
+- Go into homework 2 wandb folder (if not already)
     ```
     cd 02-homework-wandb
     ```
@@ -24,7 +24,7 @@
     ```
 
 ## How to run the code
-- Go into 02-homework-wandb folder (if not already)
+- Go into homework 2 wandb folder (if not already)
     ```
     cd 02-homework-wandb
     ```

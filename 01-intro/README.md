@@ -1,4 +1,4 @@
-# Intro to ML task (01-homework)
+# Intro to ML task (homework 1)
 ## Folders and files
 - ```01-homework_instructions.md``` - instructions by DTC + answered questions
 - ```01-homework.ipynb``` - code verifying the answers
@@ -9,9 +9,9 @@
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## Pre-requirements to run the code
-- Go into 01-homework folder (if not already)
+- Go into homework 1 folder (if not already)
     ```
-    cd 01-homework
+    cd 01-intro
     ```
 - Create conda environment
     ```
@@ -21,9 +21,9 @@
     ```
 
 ## How to run the code
-- Go into 01-homework folder (if not already)
+- Go into homework 1 folder (if not already)
     ```
-    cd 01-homework
+    cd 01-intro
     ```
 - Activate conda environment (if not already)
     ```
