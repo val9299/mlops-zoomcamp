@@ -1,4 +1,5 @@
-# Folders and files
+# Experiment Tracking & Model Registry with MLflow (02-homework)
+## Folders and files
 - ```02-homework_instructions.md``` - instructions by DTC + answered questions
 - ```README.md``` - instructions on how to run the code
 - ```requirements.txt``` - requirements file to create the code environment
@@ -10,7 +11,7 @@
     - ```green_tripdata_2022-03.parquet``` - used as the test set
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-# Pre-requirements to run the code
+## Pre-requirements to run the code
 - Go into 02-homework folder (if not already)
     ```
     cd 02-homework
@@ -22,7 +23,7 @@
     pip install -r requirements.txt
     ```
 
-# How to run the code
+## How to run the code
 - Go into 02-homework folder (if not already)
     ```
     cd 02-homework

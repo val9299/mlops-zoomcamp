@@ -1,4 +1,5 @@
-# Folders and files
+# Intro to ML task (01-homework)
+## Folders and files
 - ```01-homework_instructions.md``` - instructions by DTC + answered questions
 - ```01-homework.ipynb``` - code verifying the answers
 - ```README.md``` - instructions on how to run the code
@@ -7,7 +8,7 @@
 - ```yellow_tripdata_2022-02.parquet``` - yellow taxi trip records from February 2022 (used as the validation set)
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-# Pre-requirements to run the code
+## Pre-requirements to run the code
 - Go into 01-homework folder (if not already)
     ```
     cd 01-homework
@@ -19,7 +20,7 @@
     pip install -r requirements.txt
     ```
 
-# How to run the code
+## How to run the code
 - Go into 01-homework folder (if not already)
     ```
     cd 01-homework

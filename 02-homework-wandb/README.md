@@ -1,4 +1,5 @@
-# Folders and files
+# Experiment Tracking with Weights & Biases (02-homework-wandb)
+## Folders and files
 - ```02-wandb_instructions.md``` - instructions by DTC + answered questions
 - ```README.md``` - instructions on how to run the code
 - ```requirements.txt``` - requirements file to create the code environment
@@ -10,8 +11,8 @@
     - ```green_tripdata_2022-03.parquet``` - used as the test set
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
-# Pre-requirements to run the code
-- Go into 02-homework folder (if not already)
+## Pre-requirements to run the code
+- Go into 02-homework-wandb folder (if not already)
     ```
     cd 02-homework-wandb
     ```
@@ -22,8 +23,8 @@
     pip install -r requirements.txt
     ```
 
-# How to run the code
-- Go into 02-homework folder (if not already)
+## How to run the code
+- Go into 02-homework-wandb folder (if not already)
     ```
     cd 02-homework-wandb
     ```
@@ -55,7 +56,7 @@
         --data_artifact "<USERNAME>/mlops-zoomcamp-wandb/NYC-Taxi:v0"
     ```
     - change ```<USERNAME>``` to run the command!
-    - In W&B UI go to Runs -> expand -> there you will see all runs with their columns, including max_depth (Q3) & MSE
+    - in W&B UI go to Runs -> expand -> there you will see all runs with their columns, including max_depth (Q3) & MSE
 
 - run
     ```bash
@@ -65,6 +66,6 @@
         --data_artifact "<USERNAME>/mlops-zoomcamp-wandb/NYC-Taxi:v0"
     ```
     - change ```<USERNAME>``` to run the command!
-    - Click on Sweeps -> on your run -> analyze hyperparameters importance (Q4)
+    - click on Sweeps -> on your run -> analyze hyperparameters importance (Q4)
 
 - Create model registry and link the best model to this registry (follow the steps of Manual Linking of [this section](https://docs.wandb.ai/guides/models/walkthrough#1-create-a-new-registered-model)) (Q5)
