@@ -13,6 +13,10 @@ regressor.pkl
 
 # Prefect
 models/
+.prefectignore
+.prefect
+prefect.yaml
+deployment.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

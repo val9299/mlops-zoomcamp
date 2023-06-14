@@ -1,4 +1,4 @@
-# Intro to ML task (homework 1)
+# Intro to the ML task (homework 1)
 ## Folders and files
 - ```01-homework_instructions.md``` - instructions by DTC + answered questions
 - ```01-homework.ipynb``` - code verifying the answers
