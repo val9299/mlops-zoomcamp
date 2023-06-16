@@ -19,8 +19,8 @@ def home():
 @app.post('/prediction_mean_std', response_model=OutputPredParameters)
 def get_pred_std(payload: InputFileParameters):
     try:
-        filepath = 'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_' + payload.year + '-' + payload.month + '.parquet'
-        pred_mean, pred_std = run_prediction(filepath)  
+        
+        pred_mean, pred_std = run_prediction(month=payload.month, year=payload.year)  
     except Exception as e:
         print('\tError message:', e, '\n')
         pred_mean = 0.0

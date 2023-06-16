@@ -45,10 +45,10 @@ df_result.to_parquet(
 
 What's the size of the output file?
 
-* 28M
-* 38M
-* 48M
-* 58M
+* 28MB
+* 38MB
+* 48MB
+* **58MB** <-
 
 __Note:__ Make sure you use the snippet above for saving the file. It should contain only these two columns. For this question, don't change the
 dtypes of the columns and use pyarrow, not fastparquet. 
@@ -60,6 +60,7 @@ Now let's turn the notebook into a script.
 
 Which command you need to execute for that?
 
+- **jupyter nbconvert --to python notebook.ipynb** (see: https://mljar.com/blog/convert-jupyter-notebook-python/)
 
 ## Q4. Virtual environment
 
@@ -74,6 +75,7 @@ dependencies we use for the virtual env.
 
 What's the first hash for the Scikit-Learn dependency?
 
+- **sha256:08ef968f6b72033c16c479c966bf37ccd49b06ea91b765e1cc27afefe723920b** <- (see [Pipfile.lock from DTC](https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/04-deployment/web-service/Pipfile.lock), because I decided not to install pipenv on my PC)
 
 ## Q5. Parametrize the script
 
