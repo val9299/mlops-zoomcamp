@@ -14,7 +14,7 @@ By Valerie G., 2023
 - `02-experiment-tracking_mlflow` - Experiment Tracking & Model Registry with *MLflow*
 - `02-homework-wandb` - Experiment Tracking with *Weights & Biases* (folder will be renamed to `02-experiment-tracking_wandb` soon)
 - `03-orchestration_prefect` - Orchestration with *Prefect*
-- `04-deployment` - Deployment with *FastAPI* and *Docker* (homework 4)
+- `04-deployment` - Deployment with *FastAPI* and *Docker*
 
 ## Each homework folder contains
 - `*_instructions.md` - instructions by [DataTalks.Club](https://datatalks.club/) (DTC) + answered questions by me
