@@ -1,14 +1,14 @@
 # Experiment Tracking & Model Registry with MLflow (homework 2)
 ## Folders and files
-- ```02-homework_instructions.md``` - instructions by DTC + answered questions
-- ```README.md``` - instructions on how to run the code
-- ```requirements.txt``` - requirements file to create the code environment
-- ```*.py``` - code verifying the answers
+- `02-homework_instructions.md` - instructions by DTC + answered questions
+- `README.md` - instructions on how to run the code
+- `requirements.txt` - requirements file to create the code environment
+- `*.py` - code verifying the answers
     - these scripts originate from DTC but they were modified by me in order to complete the homework
-- ```data/``` - data to run the code
-    - ```green_tripdata_2022-01.parquet``` - used as the training set
-    - ```green_tripdata_2022-02.parquet``` - used as the validation set
-    - ```green_tripdata_2022-03.parquet``` - used as the test set
+- `data/` - data to run the code
+    - `green_tripdata_2022-01.parquet` - used as the training set
+    - `green_tripdata_2022-02.parquet` - used as the validation set
+    - `green_tripdata_2022-03.parquet` - used as the test set
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## Pre-requirements to run the code

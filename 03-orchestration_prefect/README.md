@@ -1,16 +1,16 @@
 # Orchestration with Prefect (homework 3)
 ## Folders and files
-- ```03-homework_instructions.md``` - instructions by DTC + answered questions
-- ```README.md``` - instructions on how to run the code
-- ```requirements.txt``` - requirements file to create the code environment
-- ```*.py``` - code verifying the answers
+- `03-homework_instructions.md` - instructions by DTC + answered questions
+- `README.md` - instructions on how to run the code
+- `requirements.txt` - requirements file to create the code environment
+- `*.py` - code verifying the answers
     - these scripts originate from DTC but they were modified by me in order to complete the homework
-- ```data/``` - data to run the code
-    - ```green_tripdata_2023-01.parquet``` - training set for Q3
-    - ```green_tripdata_2023-02.parquet``` 
+- `data/` - data to run the code
+    - `green_tripdata_2023-01.parquet` - training set for Q3
+    - `green_tripdata_2023-02.parquet` 
         - validation set for Q3
         - training set for Q4
-    - ```green_tripdata_2023-03.parquet``` - validation set for Q4
+    - `green_tripdata_2023-03.parquet` - validation set for Q4
     - data source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## Pre-requirements to run the code
@@ -53,8 +53,8 @@
     python orchestrate.py
     ```
 - In order to do a fresh restart for the next section, delete everything created by this section, such as
-    - ```mlrun```, ```models```, ```mlflow.db``` files
-    - ```main-flow``` in Prefect UI
+    - `mlrun`, `models`, `mlflow.db` files
+    - `main-flow``` in Prefect UI
 
 
 ### Deploy orchestration.py with Prefect (having a more automatized process) - locally
