@@ -14,7 +14,7 @@
 ## Pre-requirements to run the code
 - Go into homework 2 wandb folder (if not already)
     ```
-    cd 02-homework-wandb
+    cd 02-experiment-tracking_wandb
     ```
 - Create conda environment
     ```
@@ -26,7 +26,7 @@
 ## How to run the code
 - Go into homework 2 wandb folder (if not already)
     ```
-    cd 02-homework-wandb
+    cd 02-experiment-tracking_wandb
     ```
 - Activate conda environment (if not already)
     ```

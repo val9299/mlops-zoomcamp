@@ -12,7 +12,7 @@ By Valerie G., 2023
 ## Overview of homework folders
 - `01-intro` - Intro to the ML task
 - `02-experiment-tracking_mlflow` - Experiment Tracking & Model Registry with *MLflow*
-- `02-homework-wandb` - Experiment Tracking with *Weights & Biases* (folder will be renamed to `02-experiment-tracking_wandb` soon)
+- `02-experiment-tracking_wandb` - Experiment Tracking with *Weights & Biases*
 - `03-orchestration_prefect` - Orchestration with *Prefect*
 - `04-deployment` - Deployment with *FastAPI* and *Docker*
 
